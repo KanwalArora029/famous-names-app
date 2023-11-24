@@ -1,0 +1,88 @@
+.footer {
+    bottom: 0;
+    padding: 20px calc(20px / 2);
+    position: absolute;
+    right: 0;
+    color: white;
+    left: 0px;
+    height: 50px;
+    background-color: black;
+}
+
+@media (max-width: 992px) {
+    .footer {
+        left: 0;
+    }
+}
+body[data-layout="horizontal"] .footer {
+    left: 0 !important;
+}
+
+nav {
+    background: linear-gradient(225deg, #6518b7, #7800ed 39.88%, #a818c8);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.app-btn {
+    background: linear-gradient(
+        225deg,
+        #6518b7,
+        #7800ed 39.88%,
+        #a818c8
+    ) !important;
+    color: white;
+    padding: 0.8em 6em;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.app-btn:hover {
+    background: linear-gradient(
+        225deg,
+        #6518b7,
+        #7800ed 39.88%,
+        #a818c8
+    ) !important;
+    color: white;
+    padding: 0.8em 6em;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#map {
+    height: 100%;
+} /*# sourceMappingURL=app.css.map */
+
+.full-height {
+    height: 80vh !important;
+}
+
+#map {
+    min-height: 400px;
+    height: 100%;
+}
+
+.view,
+.edit,
+.delete {
+    background-color: #fff;
+    color: #6518b7;
+    text-transform: lowercase;
+    min-width: 30%;
+    border-radius: none !important;
+    border: 1px solid #6518b7;
+}
+
+.view:hover,
+.edit:hover,
+.delete:hover {
+    background-color: #6518b7;
+    color: #fff;
+    border: 1px solid #6518b7;
+}

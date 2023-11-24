@@ -1,0 +1,29 @@
+.footer {
+    bottom: 0;
+    padding: 20px calc(#{$grid-gutter-width} / 2);
+    position: absolute;
+    right: 0;
+    color: white;
+    left: 0px;
+    height: 50px;
+    background-color: black;
+}
+
+@media (max-width: 992px) {
+    .footer {
+        left: 0;
+    }
+}
+
+// Enlarge menu
+body[data-sidebar-size="sm"] {
+    // .footer {
+    //     left: $sidebar-collapsed-width;
+    // }
+}
+
+body[data-layout="horizontal"] {
+    .footer {
+        left: 0 !important;
+    }
+}
