@@ -11,6 +11,22 @@
 
 This is a simple app that allows users to add famous names to a database. The app is built using Laravel 10 , MySQL, and Json.
 
+### Installation Process
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/KanwalArora029/famous-names-app.git
+    ```
+2. Install Composer packages
+    ```sh
+     composer install
+    ```
+3. run command php artisan serve
+
+4. run command php artisan migrate
+
+5. To load the data from json file Click load button on the home page.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
